@@ -15,7 +15,7 @@ jobs: # Trabalhos a serem executados
         uses: actions/setup-java@v4 # action escolhida para configurar o JDK
         with: # Configurações da action
           distribution: 'temurin' # Distribuição do JDK
-          java-version: '17' # Versão do JDK
+          java-version: '21' # Versão do JDK
 
       - name: Build with Maven # Nome do passo, nesse caso, buildar com Maven
         run: mvn -B package -DskipTests # Comando a ser executado
