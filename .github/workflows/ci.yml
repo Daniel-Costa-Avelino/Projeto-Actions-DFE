@@ -35,3 +35,10 @@ jobs: # Trabalhos a serem executados
 
       - name: Test with Maven
         run: mvn test
+
+  on:
+    pull_request:
+      branches:
+        - main
+        - develop
+      types: [ opened,reopened ]
