@@ -1,11 +1,11 @@
 name: Exemplo de CI # Nome da ação
 
-on:
-  pull_request: # Evento que irá disparar a ação
-    branches:
-      - main
-      - develop
-    types: [ opened, reopened ]
+#on:
+#  pull_request: # Evento que irá disparar a ação
+#    branches:
+#      - main
+#      - develop
+#    types: [ opened, reopened ]
 
 jobs: # Trabalhos a serem executados
   build: # Nome do trabalho pode ser qualquer um de sua escolha
